@@ -317,6 +317,7 @@ const ProductFormScreen = (props) => {
                   Categories
                 </Text>
                 <Picker
+                  style={{ marginTop: -15 }}
                   selectedValue={selectedCategories}
                   onValueChange={(val1, index) => {
                     setSelectedCategories(val1);
@@ -414,6 +415,7 @@ const styles = StyleSheet.create({
     color: "white",
   },
   pickerView: {
+    flexDirection: "column",
     height: 50,
     width: 150,
     marginTop: "6%",

@@ -4,7 +4,7 @@ import {
   StyleSheet,
   View,
   Text,
-  CheckBox,
+
   Image,
   KeyboardAvoidingView,
 } from "react-native";
@@ -142,11 +142,11 @@ const LoginScreen = () => {
         />
 
         <View style={checkboxContainer}>
-          <CheckBox
+          {/* <CheckBox
             value={isSelected}
             onValueChange={setSelected}
             style={checkbox}
-          />
+          /> */}
           <Text style={styles.label}>Remember me?</Text>
         </View>
 
